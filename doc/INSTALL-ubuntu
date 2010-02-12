@@ -1,0 +1,22 @@
+# 
+# Install required packages for Music Mover
+#
+
+# Make sure $MOVER_HOME is set
+export MOVER_HOME=`pwd`
+
+# Check python is 2.6+
+python -V
+sudo apt-get install python-dev python-setuptools
+
+# install jsonpickle
+cd $MOVER_HOME/3rd_party/
+tar -xzf jsonpickle-0.3.1.tar.gz
+cd jsonpickle-0.3.1/
+sudo python setup.py install
+
+# install paramiko
+cd $MOVER_HOME/3rd_party/
+tar -xzf paramiko-1.7.6.tar.gz
+cd paramiko-1.7.6
+sudo easy_install ./

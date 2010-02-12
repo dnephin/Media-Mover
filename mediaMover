@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# run the media mover
+python ./bin/mover.py
