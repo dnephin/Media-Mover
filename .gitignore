@@ -5,3 +5,5 @@
 *.pyc
 # distobution files
 dist
+pyinstaller/build
+pyinstaller/warnmover.txt

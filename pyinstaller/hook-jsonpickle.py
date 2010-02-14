@@ -1,0 +1,2 @@
+
+hiddenimports = ['jsonpickle','simplejson']

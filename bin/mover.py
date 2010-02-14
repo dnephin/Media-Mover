@@ -3,7 +3,7 @@ Music Mover - move albums using ssh and scp.
 
 Author: Daniel Nephin
 Version: 0.3.1
-Date: 2009-01-08
+Date: 2010-01-08
 
  TODO for version 0.4:
 	- handle blank/of input on action inputs
