@@ -1,3 +1,13 @@
 MediaMover
 
-...
+This tool is designed to simplify the task of syncronising music (or                   
+really any files) between linux machines.  It uses ssh to get directory listings, and copy
+files back and forth.  It stores machine name, port and username, for convenience. It expects 
+media files to be stored in a standard format, with album numes (or season name) as the directory.
+It also scrubs the list of files on the local machine, and removes any directories (ie: albums)      
+that you already have locally.  This tool serves a very specific purpose, and generally isn't 
+very usefull.  It does have a colored menu, is easy to use and services its specific purpose well.
+Written in Python, using paramiko for ssh, and jsonpickle to serialize the config file.
+
+
+
